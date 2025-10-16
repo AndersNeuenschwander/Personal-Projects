@@ -1,3 +1,10 @@
+"""The Euclidean Algorithm is used to find the greatest common divisor (GCD) of any two numbers. 
+Takes as input two integers a and b satisfying a >= b >= 0. 
+If b = 0, output a, and terminate the algorithm. 
+If b != 0, divide a by b to get a = qb + r for some q,r in the integers (Z) with 0 <= r < b, 
+and then rerun the algorithm on the new integers b and r.
+"""
+
 import numpy as np
 
 
